@@ -1,0 +1,407 @@
+[
+  {
+    "code": "EXPMERC",
+    "name": "Exportação de mercadorias",
+    "iof": ""
+  },
+  {
+    "code": "EXPVIVARTCONSLIMPCARG",
+    "name": "Exportação de víveres",
+    "iof": "artigos para conservação"
+  },
+  {
+    "code": "PAGTRANSPFRETE",
+    "name": "Pagamento de transporte ou frete",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGSEGRESSEG",
+    "name": "Pagamento de seguro ou resseguro",
+    "iof": 0.0038
+  },
+  {
+    "code": "EXPMERCPAGJU",
+    "name": "Exportação de mercadorias em pagamento de juros",
+    "iof": ""
+  },
+  {
+    "code": "RECREFTRANSFRET",
+    "name": "Recebimento referente a transporte ou frete",
+    "iof": 0.0038
+  },
+  {
+    "code": "EXPJOIASGEMPEDOURO",
+    "name": "Exportação de jóias",
+    "iof": "gemas"
+  },
+  {
+    "code": "EXPCOMLUBBENADQEMBEST",
+    "name": "Exportação de combustíveis",
+    "iof": "lubrificantes e outros bens adquiridos por embarcações estrangeiras"
+  },
+  {
+    "code": "OUTROTIPEXP",
+    "name": "Outro tipo de exportação",
+    "iof": ""
+  },
+  {
+    "code": "IMPMERCLOJAFRANCA",
+    "name": "Importação de mercadorias para venda em loja franca",
+    "iof": ""
+  },
+  {
+    "code": "IMPLIVPERFIS",
+    "name": "Importação de livros e de periódicos adquiridos em meio físico",
+    "iof": ""
+  },
+  {
+    "code": "IMPSOFTNAOCUSTFIS",
+    "name": "Importação de software pronto para uso não customizado e adquirido em meio físico",
+    "iof": ""
+  },
+  {
+    "code": "EXPORSOFTNAOCOSTFISICO",
+    "name": "Exportação de software pronto para uso",
+    "iof": "não customizado e adquirido em meio físico"
+  },
+  {
+    "code": "IMPPETRBRUDERIV",
+    "name": "Importação de petróleo bruto e de derivados",
+    "iof": ""
+  },
+  {
+    "code": "OUTROTIPOIMP",
+    "name": "Outro tipo de Importação",
+    "iof": ""
+  },
+  {
+    "code": "CONSIGNACAO",
+    "name": "Consignação",
+    "iof": ""
+  },
+  {
+    "code": "IMPBTB",
+    "name": "importações back-to-back",
+    "iof": ""
+  },
+  {
+    "code": "TRANSFUNILAT",
+    "name": "Transferências unilaterais",
+    "iof": 0.0038
+  },
+  {
+    "code": "MOVCAPITBREXT",
+    "name": "Movimentações de capitais brasileiros no exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "RECEBADSENSE",
+    "name": "Recebimento do AdSense",
+    "iof": ""
+  },
+  {
+    "code": "TERECREFSEGRESS",
+    "name": "Recebimento referente a seguro ou resseguro",
+    "iof": 0.0038
+  },
+  {
+    "code": "CRIPTOATIVOS",
+    "name": "Criptoativos",
+    "iof": ""
+  },
+  {
+    "code": "TRANSFUNI",
+    "name": "Transferências Unilaterais",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGAMENTOSERVDIVER",
+    "name": "Pagamento de serviços diversos",
+    "iof": 0.0038
+  },
+  {
+    "code": "RENDASCAPITAIS",
+    "name": "Rendas de capitais",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGVIAGINT",
+    "name": "Pagamento de viagem internacional",
+    "iof": 0.0038
+  },
+  {
+    "code": "ENVCAPBRTOEXT",
+    "name": "Envio de capital/ganho brasileiro para o exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "Demurrage",
+    "name": "Demurrage",
+    "iof": ""
+  },
+  {
+    "code": "TETRANSUNIL",
+    "name": "Transferência unilateral",
+    "iof": 0.0038
+  },
+  {
+    "code": "TESERVDIVER",
+    "name": "Serviços diversos",
+    "iof": 0.0038
+  },
+  {
+    "code": "FACPAGEXT",
+    "name": "Transferência do exterior / Facilitadoras de pagamentos internacionais",
+    "iof": ""
+  },
+  {
+    "code": "TERECEBREFVAIGINT",
+    "name": "Recebimento referente a viagem internacional",
+    "iof": 0.0038
+  },
+  {
+    "code": "TERECREFARBIT",
+    "name": "Recebimento referente a arbitragens",
+    "iof": ""
+  },
+  {
+    "code": "TERENCAPI",
+    "name": "Rendas de capitais",
+    "iof": 0.0038
+  },
+  {
+    "code": "TERETCAPBREXT",
+    "name": "Retorno de capital/ganho de brasileiro do exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "TEMOVCAPESTRBRA",
+    "name": "Movimentações de capitais estrangeiros no Brasil",
+    "iof": 0.0038
+  },
+  {
+    "code": "DIRAUTCESUSOPROGCOMPUT",
+    "name": "Direitos autorais - Cessão ou uso de programas de computador",
+    "iof": 0.0038
+  },
+  {
+    "code": "DEMINHATITUNOEXT",
+    "name": "De minha titularidade no exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "DEDIVIDEXT",
+    "name": "De dividendos do exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "DEUMAPF",
+    "name": "De uma pessoa física",
+    "iof": 0.0038
+  },
+  {
+    "code": "PARAFINSEDUCAC",
+    "name": "Para fins educacionais",
+    "iof": 0.0038
+  },
+  {
+    "code": "DEALUGDEIMOVEIS",
+    "name": "De aluguel de imóveis",
+    "iof": 0.0038
+  },
+  {
+    "code": "DEVENDADEIMOVEISNOPAIS",
+    "name": "De venda de imóveis no país",
+    "iof": 0.0038
+  },
+  {
+    "code": "DEVENDADEIMOVEISNOEXT",
+    "name": "De venda de imóveis no exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "ENVPARAPESSOAFISICA",
+    "name": "Enviar para uma pessoa física",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGCUSTEDUCNOEXT",
+    "name": "Pagar custos com educação no exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGALUGUELEXT",
+    "name": "Pagar aluguel de imóvel no exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGTRATAMENTSAUDE",
+    "name": "Pagar tratamento de saúde",
+    "iof": 0.0038
+  },
+  {
+    "code": "ENVMINHACONTAEXT",
+    "name": "Envio de dinheiro para minha conta corrente no exterior",
+    "iof": 0.011
+  },
+  {
+    "code": "ENVMINHACORRETINVEST",
+    "name": "Envio de dinheiro para minha corretora de investimentos",
+    "iof": 0.0038
+  },
+  {
+    "code": "RECEBFUNDEINVESTIM",
+    "name": "Fundos de investimento",
+    "iof": ""
+  },
+  {
+    "code": "DIRAUTLICENCOPDISTPROGCOMP",
+    "name": "Direitos autorais - Licença para cópia e distribuição de programas de computador",
+    "iof": 0.0038
+  },
+  {
+    "code": "DEMURRAGEPAREXT",
+    "name": "Demurrage",
+    "iof": 0.0038
+  },
+  {
+    "code": "ENCOMINTERNAC",
+    "name": "Encomendas Internacionais",
+    "iof": ""
+  },
+  {
+    "code": "INVDIRETDIVIDDISTRLUCR",
+    "name": "Investimento direto - Dividendos/distribuição de lucros",
+    "iof": ""
+  },
+  {
+    "code": "FACILITPAGINTERNAC",
+    "name": "Facilitadora de pagamentos internacionais",
+    "iof": ""
+  },
+  {
+    "code": 12036,
+    "name": "Encomendas Internacionais (DESATIVADA)",
+    "iof": ""
+  },
+  {
+    "code": "PAGEDUCACEMVIAG",
+    "name": "Pagamento de educação em viagem",
+    "iof": ""
+  },
+  {
+    "code": "DEVENDAACOES",
+    "name": "De venda de Ações",
+    "iof": 0.0038
+  },
+  {
+    "code": "DESERVICADS",
+    "name": "De serviços/ADS",
+    "iof": ""
+  },
+  {
+    "code": "PORSERVICDESAUD",
+    "name": "Por serviços de saúde",
+    "iof": 0.0038
+  },
+  {
+    "code": "DEDOACOES",
+    "name": "De doações",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGPRODUTOS",
+    "name": "Pagar produtos no exterior",
+    "iof": ""
+  },
+  {
+    "code": "PAGSERVICOS",
+    "name": "Pagar serviços no exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGCOMPRAEXT",
+    "name": "Pagar compra de imóvel no exterior",
+    "iof": 0.0038
+  },
+  {
+    "code": "ENVCORRETINTERN",
+    "name": "Enviar para uma corretora internacional",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGEMPRESTDIRETOS",
+    "name": "Empréstimos diretos",
+    "iof": ""
+  },
+  {
+    "code": "PAGACOES",
+    "name": "Ações",
+    "iof": ""
+  },
+  {
+    "code": "PAGFUNDEINVESTIM",
+    "name": "Fundos de investimento",
+    "iof": ""
+  },
+  {
+    "code": "PAGREDUCDECAPITAL",
+    "name": "Aumento / Redução de capital",
+    "iof": 0.0038
+  },
+  {
+    "code": "PAGAUMENTOREDUCPARTICIP",
+    "name": "Aumento / Redução de participação",
+    "iof": ""
+  },
+  {
+    "code": "RECEBEMPRESTDIRETOS",
+    "name": "Empréstimos diretos",
+    "iof": ""
+  },
+  {
+    "code": "RECEBACOES",
+    "name": "Ações",
+    "iof": ""
+  },
+  {
+    "code": "RECEBREDUCDECAPITAL",
+    "name": "Aumento / Redução de capital",
+    "iof": 0.0038
+  },
+  {
+    "code": "RECEBAUMENTOREDUCPARTICIP",
+    "name": "Aumento / Redução de participação",
+    "iof": ""
+  },
+  {
+    "code": "RECEBPORSERVPRESTADEXT",
+    "name": "Recebimento por serviço prestado ao exterior",
+    "iof": ""
+  },
+  {
+    "code": "IMPORMERC",
+    "name": "Importação de mercadorias",
+    "iof": ""
+  },
+  {
+    "code": "PAGFORNECNOEXT",
+    "name": "Pagamento de fornecedores no exterior",
+    "iof": ""
+  },
+  {
+    "code": "CONTOUTROSMEIACONDICDECARG",
+    "name": "Contêiner e outros meios de acondicionamento de carga",
+    "iof": ""
+  },
+  {
+    "code": "PRODUCAODECONTEUDO",
+    "name": "Produção de conteúdos",
+    "iof": ""
+  },
+  {
+    "code": "APORTEMPRESEXT",
+    "name": "Aporte de empresas no exterior",
+    "iof": 0.0038
+  }
+]

@@ -1,0 +1,338 @@
+Tipos de naturezas
+	Para mim (PF)
+		code: ENVMINHACONTAEXT, name: Envio de dinheiro para minha conta corrente no exterior; iof: 0.011
+		code: ENVMINHACORRETINVEST, name: Envio de dinheiro para minha corretora de investimentos; iof: 0.0038
+	Exportação (PJ)
+		code: EXPMERC, name: Exportação de mercadorias; iof: 0
+			Sub-naturezas
+				code: AVISTAPAGAVISTA name: Pagamento à vista; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+					code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: PAGPRAZREMSEMSAQ name: Pagamento a prazo; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+					code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+					code: COMPIMPSISCOMEX name: Cópia do comprovante emitido pelo SISCOMEX.; 
+				code: PAGANTECIPADO name: Pagamento antecipado; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: OUTRAOPCEXPMEC name: Outras opções; 
+					code: DOCCOMPREC name: Docs. que comprovem o recebimento; 
+		code: EXPORSOFTNAOCOSTFISICO, name: Exportação de software pronto para uso, não customizado e adquirido em meio físico; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: RESD name: Registro de exportação.; 
+		code: EXPCOMLUBBENADQEMBEST, name: Exportação de combustíveis, lubrificantes e outros bens adquiridos por embarcações estrangeiras; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: RESD name: Registro de exportação.; 
+		code: EXPVIVARTCONSLIMPCARG, name: Exportação de víveres, artigos para conservação, limpeza e acomodação de carga; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: RESD name: Registro de exportação.; 
+		code: EXPMERCPAGJU, name: Exportação de mercadorias em pagamento de juros; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: RESD name: Registro de exportação.; 
+		code: OUTROTIPEXP, name: Outro tipo de exportação; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: RESD name: Registro de exportação.; 
+	Importação (PJ)
+		code: IMPORMERC, name: Importação de mercadorias; iof: 0
+			Sub-naturezas
+				code: AVISTAPAGAVISTA name: Pagamento à vista; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+					code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: PAGANTECIPADO name: Pagamento antecipado; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: PAGPRAZREMSEMSAQ name: Pagamento a prazo; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+					code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+					code: COMPIMPSISCOMEX name: Cópia do comprovante emitido pelo SISCOMEX.; 
+				code: FINCURTPRAZ name: Financiada no curto prazo; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+					code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+					code: COMPIMP name: Comprovante de Importação (CI).; 
+				code: PARCNAOFINAN name: Parcela não financiada; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+					code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+					code: COMPIMP name: Comprovante de Importação (CI).; 
+				code: CAMBSIMPIMP name: Câmbio simplificado; 
+					code: DSI name: Declaração Simplificada de Importação - DSI. ; 
+					code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: OUTRAOPCIMP name: Outra Opção; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: FINANLONGOPRAZO name: Financiada no logo prazo; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: IMPMERCLOJAFRANCA, name: Importação de mercadorias para venda em loja franca; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: LINCIMPDECEXSISCOMEX name: Licença de importação (LI).; 
+		code: IMPPETRBRUDERIV, name: Importação de petróleo bruto e de derivados; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: COMPIMP name: Comprovante de Importação (CI).; 
+		code: IMPLIVPERFIS, name: Importação de livros e de periódicos adquiridos em meio físico; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+				code: LINCIMPDECEXSISCOMEX name: Licença de importação (LI).; 
+		code: IMPSOFTNAOCUSTFIS, name: Importação de software pronto para uso não customizado e adquirido em meio físico; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: LINCIMPDECEXSISCOMEX name: Licença de importação (LI).; 
+		code: OUTROTIPOIMP, name: Outro tipo de Importação; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: IMPBTB, name: importações back-to-back; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+	Para outra pessoa ou empresa (PF)
+		code: ENVPARAPESSOAFISICA, name: Enviar para uma pessoa física; iof: 0.0038
+		code: PAGCUSTEDUCNOEXT, name: Pagar custos com educação no exterior; iof: 0.0038
+			Documentos
+				code: CONTRATPRESTSERVICORRESPOBRIGDIVID name: Contrato de prestação de serviços ou correspondência trocada entre as partes onde conste a natureza e o valor da obrigação devida.; 
+				code: FATOUOUTRDOCUMJUSTIFREMESS name: Fatura ou outros documentos que forem considerados necessários para justificar a remessa.; 
+		code: PAGPRODUTOS, name: Pagar produtos no exterior; iof: 0
+			Documentos
+				code: INVOICEORDOCEQUIVAL name: Invoice ou documento equivalente.; 
+		code: PAGSERVICOS, name: Pagar serviços no exterior; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PAGALUGUELEXT, name: Pagar aluguel de imóvel no exterior; iof: 0.0038
+			Documentos
+				code: CONTLOCIMOVDOC name: Contrato de locação do imóvel ou documento equivalente.; 
+		code: PAGCOMPRAEXT, name: Pagar compra de imóvel no exterior; iof: 0.0038
+			Documentos
+				code: CONTRATCOMPROUVEND name: Contrato de compra e venda.; 
+		code: APORTEMPRESEXT, name: Aporte de empresas no exterior; iof: 0.0038
+			Documentos
+				code: DOCCOMPCONSTEMPEXTERIOR name: Documentos que comprovem a constituição da empresa no exterior.; 
+		code: PAGTRATAMENTSAUDE, name: Pagar tratamento de saúde; iof: 0.0038
+			Documentos
+				code: CONTRATPRESTSERVICORRESPOBRIGDIVID name: Contrato de prestação de serviços ou correspondência trocada entre as partes onde conste a natureza e o valor da obrigação devida.; 
+		code: ENVCORRETINTERN, name: Enviar para uma corretora internacional; iof: 0.0038
+	Para mim (PF)
+		code: DEMINHATITUNOEXT, name: De minha titularidade no exterior; iof: 0.0038
+		code: DEVENDAACOES, name: De venda de Ações; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: DEDIVIDEXT, name: De dividendos do exterior; iof: 0.0038
+			Documentos
+				code: COPCONTRATINVESTBRASIL name: Cópia do contrato de câmbio que comprove o envio do investimento brasileiro.; 
+				code: COPBALANCOUDEMONSTBASECALC name: Cópia do balanço ou demonstração que serviu de base para os cálculos (Se houver).; 
+				code: COPATOSOCIETPAGAMJURO name: Cópia do ato societário do ato deliberativo do pagamento dos juros (Se houver).; 
+				code: CBEDECLARCAPITEXTACIMA100K name: CBE - Declaraçao de Capitais Brasileiros no exterior quando o capital for acima de USD 100.000,00.; 
+		code: DEUMAPF, name: De uma pessoa física; iof: 0.0038
+		code: PARAFINSEDUCAC, name: Para fins educacionais; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: DESERVICADS, name: De serviços/ADS; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: DEALUGDEIMOVEIS, name: De aluguel de imóveis; iof: 0.0038
+			Documentos
+				code: CONTLOCIMOVDOC name: Contrato de locação do imóvel ou documento equivalente.; 
+		code: DEVENDADEIMOVEISNOPAIS, name: De venda de imóveis no país; iof: 0.0038
+			Documentos
+				code: CONTRATCOMPROUVEND name: Contrato de compra e venda.; 
+				code: CERTNEGATIVIMOVEL name: Certidão negativa do imóvel.; 
+		code: DEVENDADEIMOVEISNOEXT, name: De venda de imóveis no exterior; iof: 0.0038
+			Documentos
+				code: CONTRATCOMPROUVEND name: Contrato de compra e venda.; 
+		code: PORSERVICDESAUD, name: Por serviços de saúde; iof: 0.0038
+		code: DEDOACOES, name: De doações; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+	Transferência para o exterior (PJ)
+		code: PAGVIAGINT, name: Pagamento de viagem internacional; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PAGEDUCACEMVIAG, name: Pagamento de educação em viagem; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PAGTRANSPFRETE, name: Pagamento de transporte ou frete; iof: 0.0038
+			Sub-naturezas
+				code: TRANSPAEREO name: Transporte aéreo; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: TRANSPMARIT name: Transporte marítimo; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: TRANSPRODO name: Transporte rodoviário; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: TRANSPOUTROS name: Outros meios; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PAGSEGRESSEG, name: Pagamento de seguro ou resseguro; iof: 0.0038
+			Sub-naturezas
+				code: SEGFRETTRANSPEXPORT name: Seguro de frete/transporte de exportação; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: SEGFRETTRANSPIMPORT name: Seguro de frete/transporte de importação; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: RESSEG name: Resseguros; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: SEGVID name: Seguros de vida; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: RECUPSINISTROS name: Recuperação de sinistros; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: OUTROSSEGDIRETOS name: Outros seguros diretos; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: OUTROSSERVRELSEGUROS name: Outros serviços relacionados a seguros; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: TRANSFUNILAT, name: Transferências unilaterais; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PAGAMENTOSERVDIVER, name: Pagamento de serviços diversos; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: RENDASCAPITAIS, name: Rendas de capitais; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: MOVCAPITBREXT, name: Movimentações de capitais brasileiros no exterior; iof: 0.0038
+			Sub-naturezas
+				code: AQUISMOLDFERRAMPERMEXT name: Aquisição de moldes e ferramentas que permanecerão no exterior; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: ENVCAPBRTOEXT, name: Envio de capital/ganho brasileiro para o exterior; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: DEMURRAGEPAREXT, name: Demurrage; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: CRIPTOATIVOS, name: Criptoativos; iof: 0
+		code: ENCOMINTERNAC, name: Encomendas Internacionais; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+		code: DIRAUTCESUSOPROGCOMPUT, name: Direitos autorais - Cessão ou uso de programas de computador; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: DIRAUTLICENCOPDISTPROGCOMP, name: Direitos autorais - Licença para cópia e distribuição de programas de computador; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: INVDIRETDIVIDDISTRLUCR, name: Investimento direto - Dividendos/distribuição de lucros; iof: 0
+			Documentos
+				code: RDEROF name: Registro Declaratório Eletrônico (RDE-ROF).; 
+				code: COPIATOVALAPUR name: Cópia do ato onde conste o valor apurado.; 
+				code: BALANCPERIODAPURLUCR name: Balanço do período de apuração do lucro.; 
+		code: FACILITPAGINTERNAC, name: Facilitadora de pagamentos internacionais; iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: ACAM2020 name: ACAM 220.; 
+				code: CONTRATOMADSERVIEXT name: Contrato com o tomador do serviço no exterior.; 
+		code: 12036, name: Encomendas Internacionais (DESATIVADA); iof: 0
+			Documentos
+				code: COPFATCOM name: Cópia da fatura comercial.; 
+				code: COPCONTRANSINT name: Cópia do conhecimento de transporte internacional.; 
+		code: PAGEMPRESTDIRETOS, name: Empréstimos diretos; iof: 0
+			Documentos
+				code: CONTRATEMPRESTIM name: Contrato de empréstimo; 
+		code: PAGACOES, name: Ações; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PAGFUNDEINVESTIM, name: Fundos de investimento; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PAGREDUCDECAPITAL, name: Aumento / Redução de capital; iof: 0.0038
+			Documentos
+				code: RDEIED name: Registro Declaratório Eletrônico (RDE-IED).; 
+				code: COPATOSOCIETREDUCAPITRESTISOC name: Cópia do ato societário onde conste a redução de capital e o valor a ser restituído aos sócios.; 
+		code: PAGAUMENTOREDUCPARTICIP, name: Aumento / Redução de participação; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PAGFORNECNOEXT, name: Pagamento de fornecedores no exterior; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: CONTOUTROSMEIACONDICDECARG, name: Contêiner e outros meios de acondicionamento de carga; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+	Para outra pessoa ou empresa (PF)
+		code: PRODUCAODECONTEUDO, name: Produção de conteúdos; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+	Transferência do exterior (PJ)
+		code: RECEBPORSERVPRESTADEXT, name: Recebimento por serviço prestado ao exterior; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: TRANSFUNI, name: Transferências Unilaterais; iof: 0.0038
+			Documentos
+				code: DOCCOMPREC name: Docs. que comprovem o recebimento; 
+		code: RECREFTRANSFRET, name: Recebimento referente a transporte ou frete; iof: 0.0038
+			Sub-naturezas
+				code: TETRANSPAEREO name: Transporte Aéreo; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: TETRANSPMAR name: Transporte marítimo; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: TETRANSPRODO name: Transporte Rodoviário; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+				code: TETRANSPOUTROS name: Outros meios; 
+					code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: TERECREFSEGRESS, name: Recebimento referente a seguro ou resseguro; iof: 0.0038
+			Sub-naturezas
+				code: TESEFRETRANEXP name: Seguro de frete / transporte de exportação; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: TESEFRETRANSIMP name: Seguro de frete / transporte de importação; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: TERESSEG name: Resseguros; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: TESEGVIDA name: Seguros de vida; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: TEOUTROSSEGDIR name: Outros seguros diretos; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: TEOUTRSERVRELSEG name: Outros serviços relacionados a seguros; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+				code: TERECSIN name: Recuperação de sinistros; 
+					code: APODECOMSEGVALPAG name: Apólice da companhia de seguro indicando o valor a ser pago.; 
+		code: TERECEBREFVAIGINT, name: Recebimento referente a viagem internacional; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: TERECREFARBIT, name: Recebimento referente a arbitragens; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: TESERVDIVER, name: Serviços diversos; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: TERENCAPI, name: Rendas de capitais; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: TERETCAPBREXT, name: Retorno de capital/ganho de brasileiro do exterior; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: TEMOVCAPESTRBRA, name: Movimentações de capitais estrangeiros no Brasil; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: FACPAGEXT, name: Transferência do exterior / Facilitadoras de pagamentos internacionais; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: RECEBADSENSE, name: Recebimento do AdSense; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: DIRAUTCESUSOPROGCOMPUT, name: Direitos autorais - Cessão ou uso de programas de computador; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: DIRAUTLICENCOPDISTPROGCOMP, name: Direitos autorais - Licença para cópia e distribuição de programas de computador; iof: 0.0038
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: RECEBEMPRESTDIRETOS, name: Empréstimos diretos; iof: 0
+			Documentos
+				code: RDEROF name: Registro Declaratório Eletrônico (RDE-ROF).; 
+				code: CONTRATEMPRESTIM name: Contrato de empréstimo; 
+		code: RECEBACOES, name: Ações; iof: 0
+			Documentos
+				code: RDEOPCIONAL name: RDE se houver entrada no capital social.; 
+		code: RECEBFUNDEINVESTIM, name: Fundos de investimento; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: RECEBREDUCDECAPITAL, name: Aumento / Redução de capital; iof: 0.0038
+			Documentos
+				code: RDEIED name: Registro Declaratório Eletrônico (RDE-IED).; 
+		code: RECEBAUMENTOREDUCPARTICIP, name: Aumento / Redução de participação; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
+		code: PRODUCAODECONTEUDO, name: Produção de conteúdos; iof: 0
+			Documentos
+				code: DOCCOMPRAZPAG name: Docs. que comprovem a razão do pagamento/recebimento; 
